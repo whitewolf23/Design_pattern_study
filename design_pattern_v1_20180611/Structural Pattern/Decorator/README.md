@@ -49,7 +49,7 @@ console.log(chainMail.CalculateDamageFromHit({ strength: 5 })); // 4
 console.log(chainMail.GetArmorIntegrity()); // 0.9
 ```
 
-#EX2
+# EX2
 
 ```js
 class Component {
