@@ -10,15 +10,15 @@
 - 다른 객체 와의 연동을 관장하는 하나의 객체로 구성
   사용자가 다른 문제를 일으키지 않고 실체를 더 효율적으로 사용할 수 있게 해준다.
 
-#장점
+# 장점
 
 - 사용자로 부터 최적화와 관련 내용을 감추어서 코드를 단순하게 해준다.
 
-#단점
+# 단점
 
 - 매번 인스턴스를 만들어 사용되면, 초기화 하는데 시간이 오래걸려 성능 저하를 일으킬 수 있음.
 
-#EX1
+# EX1
 
 ```js
 function PhoneBook() {
@@ -76,7 +76,7 @@ function PhoneBookProxy() {
 }
 ```
 
-#EX2
+# EX2
 
 ```js
 var Praetorian = (function() {
@@ -116,7 +116,7 @@ praetorian.report("사실"); // Otho에게 사실을 보고드립니다. 황제�
 praetorian.assassinate("Otho"); // 더 이상 Otho을 암살하지 않습니다. Galba 암살 명령을 받았습니다.
 ```
 
-#EX3
+# EX3
 
 ```js
 class BarrelCalculator {
